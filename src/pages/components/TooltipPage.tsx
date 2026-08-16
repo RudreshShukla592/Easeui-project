@@ -1,5 +1,4 @@
 import PropsTable from "@/components/Personal/PropsTable";
-import React from "react";
 import ComponentDemo from "../ComponentsDemo";
 import Tooltip from "@/components/Tooltip/Tooltip";
 import { Trash2, Heart } from "lucide-react";
