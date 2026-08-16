@@ -9,6 +9,7 @@ import InputPage from "@/pages/components/InputPage";
 import NavbarPage from "@/pages/components/NavbarPage";
 import TooltipPage from "@/pages/components/TooltipPage";
 import CarouselPage from "@/pages/components/CarouselPage";
+import LayoutPage from "@/pages/components/LayoutPage";
 
 
 type Props = {};
@@ -54,7 +55,11 @@ const AppRouter = ({}: Props) => {
             {
               path:"carousel",
               element:<CarouselPage/>
-            }
+            },
+            {
+              path:"layout",
+              element:<LayoutPage/>
+            },
           ],
         },
       ],
