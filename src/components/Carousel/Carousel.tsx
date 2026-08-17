@@ -28,7 +28,7 @@ const Carousel = ({ items, className }: CarouselProps) => {
       }`}
     >
       <div className="relative flex items-center justify-center w-full">
-        {/* Previous button */}
+      
         <button
           onClick={pervHandler}
           className="absolute left-4 z-10 flex h-9 w-9 items-center justify-center rounded-full border border-gray-300 bg-white text-gray-700 shadow-sm hover:bg-gray-100"
@@ -36,7 +36,6 @@ const Carousel = ({ items, className }: CarouselProps) => {
           <ChevronLeft size={20} />
         </button>
 
-        {/* Carousel content */}
         <div
           key={currentIdx}
           className="flex h-[300px] w-[390px] items-center justify-center rounded-xl border border-gray-200 bg-white text-4xl font-bold text-gray-800 shadow-sm animate-[fadeIn_300ms_ease-in-out]"
@@ -44,7 +43,6 @@ const Carousel = ({ items, className }: CarouselProps) => {
           {items[currentIdx]}
         </div>
 
-        {/* Next button */}
         <button
           onClick={nextHandler}
           className="absolute right-4 z-10 flex h-9 w-9 items-center justify-center rounded-full border border-gray-300 bg-white text-gray-700 shadow-sm hover:bg-gray-100"
